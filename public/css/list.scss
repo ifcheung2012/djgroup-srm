@@ -1,0 +1,217 @@
+// bower:scss
+// endbower
+@import "_head.scss";
+
+.box {
+    margin-top: 8px;
+    margin-bottom:2px;
+    padding-bottom: 8px;  //不知道如何处置这个更多的位置
+    .box-head {
+        float: left;
+
+        .list-header{
+
+          @include font($fontfamily,$_sizefont3,$_maincolor);
+          width: 100%;
+
+          #head-xjh,#head-xjmc,#head-xjdw,#head-zt,#head-ksrq,#head-jsrq {
+            float: left;
+            text-align: center;
+          }
+          #head-xjh,.content-xjh{
+            width: 100px;
+            @include font($fontfamily,$_sizefont3,$_maincolor);
+          }
+          #head-xjmc{
+            width: 250px;
+            text-decoration:none;
+            @include font($fontfamily,$_sizefont3,$_maincolor);
+          }
+          #head-xjdw {
+            width: 200px;
+          }
+          #head-zt {
+            width: 100px;
+          }
+          #head-ksrq {
+            width: 150px;
+          }
+          #head-jsrq {
+            width: 150px;
+          }
+          .content-xjh,.content-xjmc,.content-xjdw,.content-zt,.content-ksrq,.content-jsrq {
+            margin-top:3px;
+            margin-bottom: 2px;
+            float: left;
+            text-align: center;
+            @include font($fontfamily,$_sizefont4,$_hrefcolor);
+          }
+          .content-xjh {
+            width: 100px;
+            @include font($fontfamily,$_sizefont4,$_maincolor);
+          }
+          .content-xjmc {
+            width: 250px;
+            a {
+               text-decoration:none;
+               @include font($fontfamily,$_sizefont4,$_maincolor);
+            }
+          }
+          .content-xjdw {
+            width: 200px;
+          }
+          .content-zt {
+            width: 100px;
+          }
+          .content-ksrq {
+            width: 150px;
+          }
+          .content-jsrq {
+            width: 150px;
+          }
+          ul {
+            width: 100%;
+            list-style-type: none;
+            li {
+                float: left;
+                margin-left: 20px;
+                margin-right: 50px;
+
+            }
+          }
+        }
+        .box-head-img {
+          float: left;
+          width: 11px;
+          height: 11px;
+          margin:5px;
+        }
+        .box-head-title {
+          float: left;
+          @include font($fontfamily,$_sizefont3,$_maincolor);
+          line-height: 22px;
+        }
+        .lineimage {
+          float: left;
+          width:  100%;
+          height: 1px;
+        }
+    }
+    .box-content {
+      float: left;
+      width: 100%;
+      ul {
+        float: left;
+        width: 100%;
+        padding-left: 0px;
+        li {
+            padding-top: 2px;
+            // float: left; 为什么 li设置了float 里面的span就不行了；
+            line-height: 20px;
+            list-style-type: none;
+            border-bottom:1px dotted #ccc;
+            img {
+              float: left;
+              width: 3px;
+              height: 3px;
+              margin-left: 9px;
+              padding-top:8px;
+              padding-right: 12px;
+            }
+            a {
+              @include font($fonthref,$_sizefont4,$_hrefcolor);
+              text-decoration:none;
+            }
+            span {
+              float: right;
+              @include font($fonthref,$_sizefont4,$_hrefcolor);
+            }
+
+        }
+      }
+      .more {
+        clear: both;
+        float: right;
+        margin-top: 10px;
+        img {
+          width: 7px;
+          height: 7px;
+          margin-right: 9px;
+          padding-bottom: 2px;
+        }
+        a {
+          @include font($fontfamily,$_sizefont4,$_maincolor);
+          text-decoration: none;
+        }
+      }
+    }
+}
+
+.mainbody{
+    margin: 0px auto;
+    width: $mainwidth;
+    .main {
+      margin-top: 2px;
+      padding-top: 2px;
+      margin: 0px auto;
+      width: $mainwidth;
+      .catbox-left {
+
+        float: left;
+        padding-top: 5px;
+        margin-top: 5px;
+        width: $mainwidth*1/6;
+        #head-left {
+          background-color: $_bgmaincolor;
+          height: 27px;
+          width: 100%;
+          line-height: 27px;
+          text-align: center;
+          @include font($fontfamily,$_sizefont3,$_maincolor);
+        }
+        ul {
+          float: left;
+          width: 100%;
+          padding-left: 0px;
+          li {
+              padding-top: 2px;
+              line-height: 20px;
+              list-style-type: none;
+              text-align: center;
+              a {
+                @include font($fonthref,$_sizefont4,$_maincolor);
+                text-decoration:none;
+              }
+              span {
+                float: right;
+                @include font($fonthref,$_sizefont4,$_hrefcolor);
+              }
+
+          }
+        }
+      }
+      .listbox {
+        @extend .box;
+        width: $mainwidth*3/4;
+        margin-right: 20px;
+        float: right;
+      }
+      .searchlist {
+        @extend  .box;
+        width: $mainwidth;
+        float: right;
+      }
+      .page {
+
+        width: 100%;
+        margin-top: 200px;
+        text-align: center;
+        a {
+          @include font($fontfamily,$_sizefont4,$_maincolor);
+          text-decoration: none;
+        }
+      }
+
+    }
+    @import "_footer.scss";
+}

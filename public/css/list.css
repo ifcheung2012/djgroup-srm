@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/* Label: */
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0; }
+
+.top {
+  font-size: 12px;
+  float: right;
+  width: 100%; }
+  .top ul {
+    list-style: none;
+    float: right;
+    margin-right: 10px; }
+    .top ul li {
+      float: left;
+      width: 80px;
+      line-height: 27px;
+      text-align: right; }
+    .top ul a {
+      font-family: PingFangSC-Medium;
+      font-size: 12px;
+      color: #1058a7;
+      text-decoration: none; }
+
+.topcontent {
+  width: 960px; }
+
+.head {
+  width: 100%; }
+  .head .headleft {
+    width: 100%;
+    float: left; }
+    .head .headleft .iconleft {
+      float: left;
+      line-height: 50px;
+      width: 55px;
+      height: 55px;
+      margin-right: 10px; }
+      .head .headleft .iconleft .logoimg {
+        height: 37px;
+        width: 52px;
+        margin-left: 1.5px;
+        margin-top: 6.5px; }
+    .head .headleft .logoright {
+      width: 500px; }
+      .head .headleft .logoright .sysname {
+        font-family: PingFangSC-Medium;
+        font-size: 20px;
+        color: #1058a7;
+        text-align: left;
+        float: left;
+        display: block;
+        vertical-align: top; }
+      .head .headleft .logoright .englishname {
+        font-family: PingFangSC-Medium;
+        font-size: 12px;
+        color: #1058a7;
+        text-align: left;
+        float: left; }
+
+.nav {
+  background: #1058a7;
+  height: 40px;
+  width: 960px;
+  float: left; }
+  .nav .nav_menu ul {
+    vertical-align: middle;
+    list-style: none;
+    margin-left: 25px;
+    float: left;
+    width: 100%; }
+    .nav .nav_menu ul li {
+      float: left;
+      line-height: 40px;
+      width: 100px;
+      padding-left: 10px; }
+      .nav .nav_menu ul li a {
+        font-family: "微软雅黑";
+        font-size: 16px;
+        color: #faf4f4;
+        text-decoration: none; }
+
+.lineimage {
+  float: left; }
+  .lineimage .portal-image {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: left;
+    width: 960px;
+    height: 210px; }
+
+.lineshow {
+  float: left;
+  width: 960px;
+  height: 25px;
+  background-color: #9DA9B6; }
+  .lineshow .linetitle {
+    float: left;
+    margin-left: 20px;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #1058a7;
+    line-height: 25px;
+    height: 14px; }
+  .lineshow .linenews {
+    float: left;
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    color: #FF2D2D;
+    line-height: 25px;
+    height: 14px;
+    margin-left: 20px; }
+
+.box, .mainbody .main .listbox, .mainbody .main .searchlist {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  padding-bottom: 8px; }
+  .box .box-head, .mainbody .main .listbox .box-head, .mainbody .main .searchlist .box-head {
+    float: left; }
+    .box .box-head .list-header, .mainbody .main .listbox .box-head .list-header, .mainbody .main .searchlist .box-head .list-header {
+      font-family: PingFangSC-Medium;
+      font-size: 14px;
+      color: #1058a7;
+      width: 100%; }
+      .box .box-head .list-header #head-xjh, .mainbody .main .listbox .box-head .list-header #head-xjh, .mainbody .main .searchlist .box-head .list-header #head-xjh, .box .box-head .list-header #head-xjmc, .mainbody .main .listbox .box-head .list-header #head-xjmc, .mainbody .main .searchlist .box-head .list-header #head-xjmc, .box .box-head .list-header #head-xjdw, .mainbody .main .listbox .box-head .list-header #head-xjdw, .mainbody .main .searchlist .box-head .list-header #head-xjdw, .box .box-head .list-header #head-zt, .mainbody .main .listbox .box-head .list-header #head-zt, .mainbody .main .searchlist .box-head .list-header #head-zt, .box .box-head .list-header #head-ksrq, .mainbody .main .listbox .box-head .list-header #head-ksrq, .mainbody .main .searchlist .box-head .list-header #head-ksrq, .box .box-head .list-header #head-jsrq, .mainbody .main .listbox .box-head .list-header #head-jsrq, .mainbody .main .searchlist .box-head .list-header #head-jsrq {
+        float: left;
+        text-align: center; }
+      .box .box-head .list-header #head-xjh, .mainbody .main .listbox .box-head .list-header #head-xjh, .mainbody .main .searchlist .box-head .list-header #head-xjh, .box .box-head .list-header .content-xjh, .mainbody .main .listbox .box-head .list-header .content-xjh, .mainbody .main .searchlist .box-head .list-header .content-xjh {
+        width: 100px;
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #1058a7; }
+      .box .box-head .list-header #head-xjmc, .mainbody .main .listbox .box-head .list-header #head-xjmc, .mainbody .main .searchlist .box-head .list-header #head-xjmc {
+        width: 250px;
+        text-decoration: none;
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #1058a7; }
+      .box .box-head .list-header #head-xjdw, .mainbody .main .listbox .box-head .list-header #head-xjdw, .mainbody .main .searchlist .box-head .list-header #head-xjdw {
+        width: 200px; }
+      .box .box-head .list-header #head-zt, .mainbody .main .listbox .box-head .list-header #head-zt, .mainbody .main .searchlist .box-head .list-header #head-zt {
+        width: 100px; }
+      .box .box-head .list-header #head-ksrq, .mainbody .main .listbox .box-head .list-header #head-ksrq, .mainbody .main .searchlist .box-head .list-header #head-ksrq {
+        width: 150px; }
+      .box .box-head .list-header #head-jsrq, .mainbody .main .listbox .box-head .list-header #head-jsrq, .mainbody .main .searchlist .box-head .list-header #head-jsrq {
+        width: 150px; }
+      .box .box-head .list-header .content-xjh, .mainbody .main .listbox .box-head .list-header .content-xjh, .mainbody .main .searchlist .box-head .list-header .content-xjh, .box .box-head .list-header .content-xjmc, .mainbody .main .listbox .box-head .list-header .content-xjmc, .mainbody .main .searchlist .box-head .list-header .content-xjmc, .box .box-head .list-header .content-xjdw, .mainbody .main .listbox .box-head .list-header .content-xjdw, .mainbody .main .searchlist .box-head .list-header .content-xjdw, .box .box-head .list-header .content-zt, .mainbody .main .listbox .box-head .list-header .content-zt, .mainbody .main .searchlist .box-head .list-header .content-zt, .box .box-head .list-header .content-ksrq, .mainbody .main .listbox .box-head .list-header .content-ksrq, .mainbody .main .searchlist .box-head .list-header .content-ksrq, .box .box-head .list-header .content-jsrq, .mainbody .main .listbox .box-head .list-header .content-jsrq, .mainbody .main .searchlist .box-head .list-header .content-jsrq {
+        margin-top: 3px;
+        margin-bottom: 2px;
+        float: left;
+        text-align: center;
+        font-family: PingFangSC-Medium;
+        font-size: 12px;
+        color: #858585; }
+      .box .box-head .list-header .content-xjh, .mainbody .main .listbox .box-head .list-header .content-xjh, .mainbody .main .searchlist .box-head .list-header .content-xjh {
+        width: 100px;
+        font-family: PingFangSC-Medium;
+        font-size: 12px;
+        color: #1058a7; }
+      .box .box-head .list-header .content-xjmc, .mainbody .main .listbox .box-head .list-header .content-xjmc, .mainbody .main .searchlist .box-head .list-header .content-xjmc {
+        width: 250px; }
+        .box .box-head .list-header .content-xjmc a, .mainbody .main .listbox .box-head .list-header .content-xjmc a, .mainbody .main .searchlist .box-head .list-header .content-xjmc a {
+          text-decoration: none;
+          font-family: PingFangSC-Medium;
+          font-size: 12px;
+          color: #1058a7; }
+      .box .box-head .list-header .content-xjdw, .mainbody .main .listbox .box-head .list-header .content-xjdw, .mainbody .main .searchlist .box-head .list-header .content-xjdw {
+        width: 200px; }
+      .box .box-head .list-header .content-zt, .mainbody .main .listbox .box-head .list-header .content-zt, .mainbody .main .searchlist .box-head .list-header .content-zt {
+        width: 100px; }
+      .box .box-head .list-header .content-ksrq, .mainbody .main .listbox .box-head .list-header .content-ksrq, .mainbody .main .searchlist .box-head .list-header .content-ksrq {
+        width: 150px; }
+      .box .box-head .list-header .content-jsrq, .mainbody .main .listbox .box-head .list-header .content-jsrq, .mainbody .main .searchlist .box-head .list-header .content-jsrq {
+        width: 150px; }
+      .box .box-head .list-header ul, .mainbody .main .listbox .box-head .list-header ul, .mainbody .main .searchlist .box-head .list-header ul {
+        width: 100%;
+        list-style-type: none; }
+        .box .box-head .list-header ul li, .mainbody .main .listbox .box-head .list-header ul li, .mainbody .main .searchlist .box-head .list-header ul li {
+          float: left;
+          margin-left: 20px;
+          margin-right: 50px; }
+    .box .box-head .box-head-img, .mainbody .main .listbox .box-head .box-head-img, .mainbody .main .searchlist .box-head .box-head-img {
+      float: left;
+      width: 11px;
+      height: 11px;
+      margin: 5px; }
+    .box .box-head .box-head-title, .mainbody .main .listbox .box-head .box-head-title, .mainbody .main .searchlist .box-head .box-head-title {
+      float: left;
+      font-family: PingFangSC-Medium;
+      font-size: 14px;
+      color: #1058a7;
+      line-height: 22px; }
+    .box .box-head .lineimage, .mainbody .main .listbox .box-head .lineimage, .mainbody .main .searchlist .box-head .lineimage {
+      float: left;
+      width: 100%;
+      height: 1px; }
+  .box .box-content, .mainbody .main .listbox .box-content, .mainbody .main .searchlist .box-content {
+    float: left;
+    width: 100%; }
+    .box .box-content ul, .mainbody .main .listbox .box-content ul, .mainbody .main .searchlist .box-content ul {
+      float: left;
+      width: 100%;
+      padding-left: 0px; }
+      .box .box-content ul li, .mainbody .main .listbox .box-content ul li, .mainbody .main .searchlist .box-content ul li {
+        padding-top: 2px;
+        line-height: 20px;
+        list-style-type: none;
+        border-bottom: 1px dotted #ccc; }
+        .box .box-content ul li img, .mainbody .main .listbox .box-content ul li img, .mainbody .main .searchlist .box-content ul li img {
+          float: left;
+          width: 3px;
+          height: 3px;
+          margin-left: 9px;
+          padding-top: 8px;
+          padding-right: 12px; }
+        .box .box-content ul li a, .mainbody .main .listbox .box-content ul li a, .mainbody .main .searchlist .box-content ul li a {
+          font-family: HelveticaNeue-Medium;
+          font-size: 12px;
+          color: #858585;
+          text-decoration: none; }
+        .box .box-content ul li span, .mainbody .main .listbox .box-content ul li span, .mainbody .main .searchlist .box-content ul li span {
+          float: right;
+          font-family: HelveticaNeue-Medium;
+          font-size: 12px;
+          color: #858585; }
+    .box .box-content .more, .mainbody .main .listbox .box-content .more, .mainbody .main .searchlist .box-content .more {
+      clear: both;
+      float: right;
+      margin-top: 10px; }
+      .box .box-content .more img, .mainbody .main .listbox .box-content .more img, .mainbody .main .searchlist .box-content .more img {
+        width: 7px;
+        height: 7px;
+        margin-right: 9px;
+        padding-bottom: 2px; }
+      .box .box-content .more a, .mainbody .main .listbox .box-content .more a, .mainbody .main .searchlist .box-content .more a {
+        font-family: PingFangSC-Medium;
+        font-size: 12px;
+        color: #1058a7;
+        text-decoration: none; }
+
+.mainbody {
+  margin: 0px auto;
+  width: 960px;
+  /* Label: */ }
+  .mainbody .main {
+    margin-top: 2px;
+    padding-top: 2px;
+    margin: 0px auto;
+    width: 960px; }
+    .mainbody .main .catbox-left {
+      float: left;
+      padding-top: 5px;
+      margin-top: 5px;
+      width: 160px; }
+      .mainbody .main .catbox-left #head-left {
+        background-color: #faf4f4;
+        height: 27px;
+        width: 100%;
+        line-height: 27px;
+        text-align: center;
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #1058a7; }
+      .mainbody .main .catbox-left ul {
+        float: left;
+        width: 100%;
+        padding-left: 0px; }
+        .mainbody .main .catbox-left ul li {
+          padding-top: 2px;
+          line-height: 20px;
+          list-style-type: none;
+          text-align: center; }
+          .mainbody .main .catbox-left ul li a {
+            font-family: HelveticaNeue-Medium;
+            font-size: 12px;
+            color: #1058a7;
+            text-decoration: none; }
+          .mainbody .main .catbox-left ul li span {
+            float: right;
+            font-family: HelveticaNeue-Medium;
+            font-size: 12px;
+            color: #858585; }
+    .mainbody .main .listbox {
+      width: 720px;
+      margin-right: 20px;
+      float: right; }
+    .mainbody .main .searchlist {
+      width: 960px;
+      float: right; }
+    .mainbody .main .page {
+      width: 100%;
+      margin-top: 200px;
+      text-align: center; }
+      .mainbody .main .page a {
+        font-family: PingFangSC-Medium;
+        font-size: 12px;
+        color: #1058a7;
+        text-decoration: none; }
+  .mainbody html, .mainbody body, .mainbody h1, .mainbody h2, .mainbody h3, .mainbody h4, .mainbody h5, .mainbody h6, .mainbody div, .mainbody dl, .mainbody dt, .mainbody dd, .mainbody ul, .mainbody ol, .mainbody li, .mainbody p, .mainbody blockquote, .mainbody pre, .mainbody hr, .mainbody figure, .mainbody table, .mainbody caption, .mainbody th, .mainbody td, .mainbody form, .mainbody fieldset, .mainbody legend, .mainbody input, .mainbody button, .mainbody textarea, .mainbody menu {
+    margin: 0;
+    padding: 0; }
+  .mainbody .separator {
+    clear: both;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin-bottom: 4px; }
+    .mainbody .separator .links {
+      margin-top: 7px;
+      text-align: center;
+      font-family: HelveticaNeue-Medium;
+      font-size: 12px;
+      color: #858585; }
+  .mainbody .foot {
+    width: 100%;
+    height: 80px;
+    background-color: #858585;
+    float: right; }
+    .mainbody .foot .foot-content {
+      padding-top: 8px;
+      width: 100%;
+      text-align: center;
+      font-family: HelveticaNeue-Medium;
+      font-size: 12px;
+      color: #CFCECE; }

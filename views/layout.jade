@@ -1,0 +1,12 @@
+doctype html
+html(lang='en')
+  head
+    include ./head.jade
+    
+    block css
+      link(rel='stylesheet', href='/css/style.css')
+    block js
+      //- if ENV_DEVELOPMENT
+      //-   script(src='http://localhost:61242/livereload.js')
+  body
+    block bodycontent

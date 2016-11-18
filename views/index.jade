@@ -1,0 +1,110 @@
+
+extend layout
+
+block css
+  link(rel='stylesheet', href='/css/main.css')
+block js
+  script(src='/js/main.js')
+  
+block bodycontent
+  .mainbody
+    include top.jade
+    .lineimage
+      img.portal-image(src='./images/portal.png', alt='')
+    .lineshow
+      p.linetitle 动态快报:
+      p.linenews 在线报价指南（供应商操作指引）
+    .main
+      .box-left
+        .box-head
+          img.box-head-img(src='./images/head_img.png', alt='')
+          span.box-head-title 通知公告
+          .line
+            img.lineimage(src='./images/headline.png', alt='')
+        .box-content
+          ul
+            - for (var x = 1; x<5;x++)
+              li
+                img(src='./images/point.png', alt='')
+                span #{list[x].ksrq}
+                a(href='') #{list[x].xjmc}...
+          .more
+            img(src='./images/Triangle.png', alt='')
+            a(href='#') 更多
+      .box-right
+        .mainbox
+          .tab-nav
+            ul#tab-nav
+              li.tab-nav-title 物资询价
+              li.tab-nav-title-unchecked 中标查询
+            .line
+              img.lineimg(src='./images/headline.png', alt='')
+
+          #tabs-body
+            .box-tab-content
+              ul
+                - for (var x = 1; x<5;x++)
+                  li
+                    img(src='./images/point.png', alt='')
+                    span 2016-11-18
+                    a(href='') 2016供应商线上中标排名前5位...
+
+              .more
+                img(src='./images/Triangle.png', alt='')
+                a(href='#') 更多
+
+            .box-tab-content(style='display:none')
+              ul
+                - for (var x = 1; x<5;x++)
+                  li
+                    img(src='./images/point.png', alt='')
+                    span 2016-11-18
+                    a(href='') 2016年9月供应商线上中标排名前10位...
+
+              .more
+                img(src='./images/Triangle.png', alt='')
+                a(href='#') 更多
+
+      .box-left
+        .box-head
+          img.box-head-img(src='./images/head_img.png', alt='')
+
+          span.box-head-title 招标查询
+
+          .line
+            img.lineimage(src='./images/headline.png', alt='')
+
+        .box-content
+          ul
+            - for (var x = 1; x<5;x++)
+              li
+                img(src='./images/point.png', alt='')
+                span 2016-11-18
+                a(href='') 2016年9月供应商线上中标排名前10位...
+
+          .more
+            img(src='./images/Triangle.png', alt='')
+            a(href='#') 更多
+
+      .box-right
+        .box-head
+          img.box-head-img(src='./images/head_img.png', alt='')
+
+          span.box-head-title 中标查询
+
+          .line
+            img.lineimage(src='./images/headline.png', alt='')
+
+        .box-content
+          ul
+            - for (var x = 1; x<5;x++)
+              li
+                img(src='./images/point.png', alt='')
+                span 2016-11-18
+                a(href='') 2016年9月供应商线上中标排名前10位...
+
+          .more
+            img(src='./images/Triangle.png', alt='')
+            a(href='#') 更多
+
+      include foot.jade

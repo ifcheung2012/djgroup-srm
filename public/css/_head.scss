@@ -1,0 +1,128 @@
+
+@import "_base.scss";
+
+
+.top {
+  font-size: 12px;
+  float: right;
+  width: 100%;
+  // background-color: $_maincolor;
+
+  ul  {
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+    li {
+      float: left;
+      width: 80px;
+      line-height: 27px;
+      text-align: right;
+    }
+    a {
+      @include font($fontfamily,$_sizefont4,$_maincolor);
+      text-decoration: none;
+    }
+  }
+}
+
+.topcontent {
+  width: $mainwidth;
+}
+
+.head {
+  width: 100%;
+
+  .headleft {
+    width: 100%;
+    float: left;
+    .iconleft{
+      float: left;
+      line-height: 50px;
+      width: 55px;
+      height: 55px;
+      margin-right: 10px;
+      .logoimg {
+        height: 37px;
+        width: 52px;
+        margin-left: (55px-52px)/2;
+        margin-top:(50px-37px)/2;
+
+      }
+    }
+    .logoright {
+      width: 500px;
+      .sysname {
+        @include font($fontfamily,$_sizefont0,$_maincolor);
+        text-align:left;
+        float: left;
+        display: block;
+        vertical-align: top;
+      }
+      .englishname {
+        @include font($fontfamily,$_sizefont4,$_maincolor);
+        text-align:left;
+        float: left;
+      }
+    }
+  }
+}
+
+.nav {
+  background: $_maincolor;
+  height: 40px;
+  width: $mainwidth;
+  float: left;
+
+  .nav_menu {
+        ul {
+          vertical-align: middle;
+          list-style:none;
+          margin-left: 25px;
+          float: left;
+          width: 100%;
+          li {
+              float: left;
+              line-height: 40px;
+              width: 100px;
+              padding-left: 10px;
+              a {
+                @include font($fontfamilyyahei,$_sizefont2,$_bgmaincolor);
+                text-decoration:none;
+              }
+          }
+        }
+    }
+}
+
+.lineimage {
+  float: left;
+  .portal-image {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: left;
+    width: $mainwidth;
+    height: 210px;
+  }
+}
+
+.lineshow {
+  float:left;
+  width: $mainwidth;
+  height: 25px;
+  background-color: $_bgcolornews;
+  .linetitle {
+    float: left;
+    margin-left: 20px;
+    @include font($fontfamily,$_sizefont4,$_maincolor);
+    line-height: 25px;
+    height: 14px;
+  }
+  .linenews {
+    float: left;
+    @include font($fontfamily,$_sizefont4,$_warncolor);
+    line-height: 25px;
+    height: 14px;
+    margin-left: 20px;
+
+  }
+}

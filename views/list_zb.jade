@@ -1,0 +1,50 @@
+extend ./layout.jade
+block css
+  link(rel='stylesheet', href='./css/list.css')
+
+block bodycontent
+  .mainbody
+    include top.jade
+    .main
+      .searchlist
+        .box-head
+          .list-header
+            #head-xjh
+              | 询价号
+              img.lineimage(src='./images/headline3.png', alt='')
+            #head-xjmc
+              | 询价名称
+              img.lineimage(src='./images/headline3.png', alt='')
+            #head-xjdw
+              | 询价单位
+              img.lineimage(src='./images/headline3.png', alt='')
+            #head-zt
+              | 状态
+              img.lineimage(src='./images/headline3.png', alt='')
+            #head-ksrq
+              | 开始日期
+              img.lineimage(src='./images/headline3.png', alt='')
+            #head-jsrq
+              | 结束日期
+              img.lineimage(src='./images/headline3.png', alt='')
+          .list-header
+            - for (var x=0;x<count;x++)
+              .content-xjh
+                span #{list[x].zbh}
+              .content-xjmc
+                a(href='#') #{list[x].xjmc}
+              .content-xjdw
+                span #{list[x].xjdw}
+              .content-zt
+                span #{list[x].zt}
+              .content-ksrq
+                span #{list[x].ksrq}
+              .content-jsrq
+                span #{list[x].jsrq}
+          
+          // <span class="box-head-title">把上面的header加span后，格式就变化喽！不知为何</span>
+        // <div class="box-content">
+        .page
+          a(href='#') 上一页  ｜  第 1 页  ｜  下一页
+        // </div>
+    include foot.jade
